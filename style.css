@@ -1,42 +1,96 @@
-
+body {
+	width: 100%;
+}
 h1 {
-text-align: center;
 padding-bottom: -50px;
 margin: 50px;
-color: black;
+color: #007689;
 font-size: 50px;
+font-family: "Raleway",Helvetica,Arial,sans-serif;
+
 }
 
 h2 {
-font-family : Helvetica Neue 25 ultra light; 
-font-size: 100%;
+font-family : Raleway; 
+font-size: 220%;
 color : black;
-font-size: 50px;
+font-weight: bold,
 text-align: center;
 }
 
-h4 {
-color : #;
-font-family : Helvetica Neue 25 ultra light; 
-font-size: 20px
+.logocentre {
+	margin: center;
 }
 
+.location {
+	font-size: 30px;
+	background-color: white;
+	margin-bottom: 40px;
+	font-family: Raleway;
+}
+.textenoir {
+	color: black;
+}
 .titreblanc {
 	color: white;
 }
+
+#presentationblanc {
+	color: white;
+}
+
+
+#activitesblanc {
+	color: white;
+}
+
+#logoblanc {
+	color: white;
+}
+
+
+
 div {text-align: center}
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: black;
+    color: white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus  {	
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #007689 ;
+}	
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #007689;
+}
 
 .navbar-nav {
   text-align: center;
   background-color: black;
-  position: fixed;
-  width: 100%;
   top: 0;
   margin: 0;
   padding-left: 0;
-  z-index: 2;
+  padding-bottom: 0;
+  text-decoration: none;
 }
+
+.navbar-default {
+	background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
+
+.nav-section {
+	color: transparent;
+}
+
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: white;
 }
@@ -299,15 +353,18 @@ display: inline;
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    margin: center
 }
 
 .timeline-body > p,
-.timeline-body > ul {
+.timeline-body > ul,{
     margin-bottom: 0;
+
 }
 
     .timeline-body > p + p {
         margin-top: 5px;
+        margin: auto;
     }
 
 
@@ -347,35 +404,66 @@ display: inline;
         }
 }
 
-#timeline {text-align: center;
+.interests-list {
+    list-style: outside none none;
+}
+.interests-list li {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+}
+.interests-list li:last-child {
+    margin-right: 0;
+}
+.interests-list li > p {
+    margin-bottom: 0;
+}
+.interests-list li > p i {
+    border: 1px solid #252525;
+    color: #252525;
+    display: block;
+    font-size: 25px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 25px;
+    width: 70px;
+}
+.interest-details {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    color: #fff;
+    left: -45px;
+    opacity: 0;
+    padding: 25px;
+    position: absolute;
+    text-align: left;
+    top: -45px;
+    transition: opacity 0.3s ease 0s;
+    width: 200px;
+}
+.interests-list li:first-child .interest-details {
+    left: 0;
+}
+.interest-details i {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 15px 20px 0;
+    vertical-align: text-top;
+}
+.interest-details p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.interests-list li:hover .interest-details {
+    opacity: 1;
 }
 
-
-
-
-@media (max-width:320px) {  /*small mobile*/
-  h4 {
-    background-color: ;
-  }
+.interests-list {	
+font-size: 50px;
 }
-@media (min-width:321px) and (max-width:959px) {  /*tablet*/
-  h4 {
-    background-color: ; 
-  }
+#sports {
+	font-size: 30px;
 }
-@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
-  h4 {
-    background-color: ;
-  }
-}
-@media (min-width:1600px) {  /*desktop and tv*/
-  h4 {
-    background-color: ;
-  }
-}
-
-
-
-
-
 

@@ -3,7 +3,8 @@
 
 	<head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -19,36 +20,57 @@
 
 		<title>CV de Robin Ledru</title>
 	</head>
-
 <body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Robin Ledru</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li><a class="nav-section" href="CV Robin Ledru.pdf">Mon CV</a></li>
+        <li><a class="nav-section" href="#presentation">Présentation</a></li>
+        <li><a class="nav-section" href="#experiences">Expériences Professionnelles</a></li>
+        <li><a class="nav-section" href="#formation">Formations</a></li>
+        <li><a class="nav-section" href="#competences">Compétences</a></li>
+        <li><a class="nav-section" href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
 <header>
-  <nav>
-        <ul class="nav navbar-nav">
-	       <li><a class="nav-section" href="CV Robin Ledru.pdf">Voir mon CV</a></li>
-			<li><a class="nav-section" href="#presentation">Présentation</a></li>
-			<li><a class="nav-section" href="#experiences">Expériences Professionnelles</a></li>
-			<li><a class="nav-section" href="#formation">Formations</a></li>
-			<li><a class="nav-section" href="#competences">Compétences</a></li>
-			<li><a class="nav-section" href="#contact">Contact</a></li>
-			<li><a class="nav-section" target="_blank" href="http://blog.robin.ledru">BLOG</a></li>
-        </ul>
-  </nav>
   
 
 <div id="fond"> 
 		<h1 id="nom">ROBIN LEDRU</h1>
-		<h2 id="fonction">@robledru</h2>
-		<div class="location">Telecom Ecole de Management</div>
+		<div class="location">Community Manager, LINAGORA</div>
 		<img id="robinledru" src="images/robinledru.png"> 
 
-      <ul class="social-media list-inline">
-</a></li>
-        <li><a href="https://twitter.com/robledru" target="_blank"><i class="fa fa-twitter"></i>
-</a></li>
-        <li><a href="https://fr.linkedin.com/in/robinledru" target="_blank"><i class="fa fa-linkedin"></i>
-</a></li>
-      </ul>
-  	</div>
+<ul class="social-media list-inline">
+<li><a id="logoblanc" href="https://twitter.com/robledru" target="_blank"><i class="fa fa-twitter"></i>
+  </a>
+</li>
+<li><a id="logoblanc" href="https://fr.linkedin.com/in/robinledru" target="_blank"><i class="fa fa-linkedin"></i>
+  </a>
+</li>
+     	<li><a id="logoblanc" href="" target="_blank"><i class="fa fa-wordpress"></i>
+    </a>
+  </li>
+</ul>
+</div>
 
 </header>
 
@@ -56,8 +78,8 @@
 <!-- Section : presentation -->
 
 <section id="presentation">
-	<div id="presentation2" >
-		<h3>Présentation</h3>
+	<div id="presentation2">
+		<h2 id="presentationblanc">Présentation</h2>
 	<span class="border"></span>
 	<p><span>Étudiant à Telecom Ecole de Management, Business School de l'Institut Mines-Télécom spécialisée dans les NTIC.</span></p>
 	<p>Soucieux de vouloir acquérir une expérience professionnelle enrichissante et conscient de l'importance du digital dans les entreprises, j'ai choisi d'opter pour un Master 2 Marketing Digital en alternance.</p>
@@ -74,7 +96,7 @@
 <div class="experiences pro">
 <div class="container">
     <div class="page-header">
-        <h1 id="timeline">Expériences Professionnelles</h1>
+        <h2 id="timeline">Expériences Professionnelles</h2>
     </div>
     <ul class="timeline">
         <li>
@@ -113,7 +135,8 @@
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+         <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Vendeur, L'Arlequin</h4>
@@ -124,7 +147,6 @@
             </div>
           </div>
         </li>
-</div>
 </div>        						
 </section>
 
@@ -136,19 +158,19 @@
 <div class="formations">
 <div class="container">
     <div class="page-header">
-        <h1 id="timeline" class="titreblanc">Formations</h1>
+        <h2 id="timeline" class="titreblanc">Formations</h2>
     </div>
     <ul class="timeline">
         <li>
           <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">MASTER GRANDE ECOLE</h4>
+              <h4 class="timeline-title">Master Grande Ecole</h4>
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Septembre 2012 - Septembre 2016</small></p>
             </div>
             <div class="timeline-body">
               <p>TELECOM ECOLE DE MANAGEMENT (EVRY, 91)</p>
-              <br/><a href="http://www.telecom-em.eu" "target=_blank"><img src="images/tem.png" class="img-responsive"></a>
+              <br/><a href="http://www.telecom-em.eu" "target=_blank"><img class="logocentre" src="images/tem.png" class="img-responsive"></a>
 
             </div>
           </div>
@@ -157,12 +179,12 @@
           <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">SEMESTRE UNIVERSITAIRE</h4>
+              <h4 class="timeline-title">Semestre Universitaire</h4>
             </div>
             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Juillet 2014 – Décembre 2014</small></p>
             <div class="timeline-body">
               <p>UADE, BUENOS AIRES, ARGENTINE</p>
-              <br/><a href="http://www.uade.edu.ar" "target=_blank"><img src="images/uade.png" class="img-responsive"></a>
+              <br/><a href="http://www.uade.edu.ar" "target=_blank"><img class="logocentre" src="images/uade.png" class="img-responsive"></a>
             </div>
           </div>
         </li>
@@ -170,13 +192,12 @@
           <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">DUT TECHNIQUES DE COMMERCIALISATION</h4>
+              <h4 class="timeline-title">DUT Techniques de Commercialisation</h4>
             </div>
             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Diplomé en 2012</small></p>
             <div class="timeline-body">
               <p>IUT DE LAVAL (LAVAL, 53)</p>
-              <br/><a href="https://www.iut-laval.univ-lemans.fr/fr/tc-commerce-et-marketing/dut-techniques-de-commercialisation.html" target="_blank"><img src="images/iutlaval.png" class="img-responsive"></a>
-
+              <br/><a href="https://www.iut-laval.univ-lemans.fr/fr/tc-commerce-et-marketing/dut-techniques-de-commercialisation.html" target="_blank"><img class="logocentre" src="images/iutlaval.png" class="img-responsive"></a>
             </div>
           </div>
         </li>
@@ -184,12 +205,12 @@
           <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">BACCALAUREAT SCIENTIFIQUE</h4>
+              <h4 class="timeline-title">Baccalauréat Scientifique</h4>
             </div>
             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Diplomé en 2010</small></p>
             <div class="timeline-body">
               <p>LYCEE ROBERT-GARNIER (LA FERTE-BERNARD, 72)</p>
-              <br/><a href="http://robert-garnier.paysdelaloire.e-lyco.fr/" "target=_blank"><img src="images/lrg.png" class="img-responsive"></a>
+              <br/><a href="http://robert-garnier.paysdelaloire.e-lyco.fr/" "target=_blank"><img class="logocentre" src="images/lrg.png" class="img-responsive"></a>
             </div>
           </div>
         </li>
@@ -208,7 +229,7 @@
 <div class="row">
 <div class="col-md-6"> 
 <div id="maitrise">
- <h3>Compétences</h3>
+ <h2>Compétences</h2>
 
 <strong>Maîtrise des Logiciels :</strong></span><br/><ul>
 <li><span>(Word, Excel, PowerPoint)</span><br /></li>
@@ -217,14 +238,15 @@
 </ul> 
 </div> 
 </div>
+
+
 <div class="col-md-6"> 
 <div id="informatique"> 
 
-<h3>Savoir-Faire</h3> 
+<h2>Savoir-Faire</h2> 
 <ul>
 <li><span>Veille technologique / Benchmark</span><br/></li>
 <li><span>Mise en place stratégie EMAILING</span><br/></li>
-<li>Notions de HTML et en CSS</li>
 <li><span>Reporting / Analyse d'audience</span><br/></li>
 <li><span>HTML / CSS / Javascript</span><br/>
 </li>
@@ -234,19 +256,139 @@
 </section>            
 
            
-<!-- Activités -->
+<!-- hobbies -->
 
 
 <section id="activites">
 
+<h2 class="text-uppercase">Hobbies & Interests</h2>
+<div class="container">
+<div class="row">
 
-<h3>Activités</h3>
+<div class="col-md-2">
 
-   <img id="jeuxvideos" src="images/jeuxvideos.png">
-	<img id="musique" src="images/musique.png">
-	<img id="voyage" src="images/voyage.png">
-	<img id="cinema" src="images/cinema.png">
-	<img id="sports" src="images/sports.png">
+
+<ul class="interests-list fixed">
+<li>
+<i class="fa fa-futbol-o"></i>
+<div class="interest-details">
+<strong id="sports">Sports</strong>
+<p>Football en club depuis l'âge de 6 ans.</p><p>Pratique du tennis en amateur.</p>
+</div>
+</ul>
+</li>
+</div>
+
+<div class="col-md-2">
+
+<ul class="interests-list fixed">
+<li>
+<i class="fa fa-futbol-o"></i>
+<div class="interest-details">
+<strong id="sports">Sports</strong>
+<p>Football en club depuis l'âge de 6 ans.</p><p>Pratique du tennis en amateur.</p>
+</div>
+</ul>
+</li>
+</div>
+
+
+<div class="col-md-2">
+
+<ul class="interests-list fixed">
+<li>
+<i class="fa fa-futbol-o"></i>
+<div class="interest-details">
+<strong id="sports">Sports</strong>
+<p>Football en club depuis l'âge de 6 ans.</p><p>Pratique du tennis en amateur.</p>
+</div>
+</ul>
+</li>
+</div>
+
+<div class="col-md-2">
+
+
+<ul class="interests-list fixed">
+<li>
+<i class="fa fa-futbol-o"></i>
+<div class="interest-details">
+<strong id="sports">Sports</strong>
+<p>Football en club depuis l'âge de 6 ans.</p><p>Pratique du tennis en amateur.</p>
+</div>
+</ul>
+</li>
+</div>
+
+<div class="col-md-2">
+
+
+<ul class="interests-list fixed">
+<li>
+<i class="fa fa-futbol-o"></i>
+<div class="interest-details">
+<strong id="sports">Sports</strong>
+<p>Football en club depuis l'âge de 6 ans.</p><p>Pratique du tennis en amateur.</p>
+</div>
+</ul>
+</li>
+</div>
+
+<div class="col-md-2">
+
+
+<ul class="interests-list fixed">
+<li>
+<i class="fa fa-futbol-o"></i>
+<div class="interest-details">
+<strong id="sports">Sports</strong>
+<p>Football en club depuis l'âge de 6 ans.</p><p>Pratique du tennis en amateur.</p>
+</div>
+</ul>
+</li>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Voyages
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Voyage à Buenos Aires</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </Section>
 
@@ -255,7 +397,7 @@
 
 
  <section id="contact">
-    <h3>Contact</h3>
+    <h2>Contact</h2>
 
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
@@ -287,9 +429,9 @@
     </div>
 
   </section>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="global.js"></script>
   </body>
 </body>
 </html>
