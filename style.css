@@ -20,18 +20,10 @@ h1
 	font-family: "Raleway",Helvetica,Arial,sans-serif;
 }
 
-/* Media queries: responsive */
-@media (max-width:320px) {
-	/*small mobile*/
-header h1
-	{
-		font-size: 15px;
-	}
-}
+
 
 h2
-{
-	font-family: Raleway;
+{	font-family: Raleway;
 	font-size: 220%;
 	color: black;
 	font-weight: bold;
@@ -47,7 +39,7 @@ h2
 {
 	font-size: 30px;
 	background-color: white;
-	margin-bottom: 90px;
+	margin-bottom: 100px;
 	font-family: Raleway;
 	text-align: center;
 }
@@ -546,9 +538,8 @@ strong
 
 .image
 {
-margin-left: center;
-margin-right: center;
-}
+	margin-left: center;
+margin-right: center }
 
 
 .text-muted {
@@ -563,8 +554,14 @@ text-align: left;
 {
 text-align: left;
 }
-
-
+#savoirfaire
+{
+text-align: left;
+}
+#competences
+{
+text-align: left;
+}
 
 .container
 {
@@ -574,7 +571,14 @@ padding-left: auto;
 padding-right: auto;
 }
 
-
+/* Media queries: responsive */
+@media (max-width:320px) {
+	/*small mobile*/
+header h1
+	{
+		font-size: 15px;
+	}
+}
 
 @media (max-width: 767px) {
 	.interest-details {
