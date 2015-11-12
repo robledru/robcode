@@ -47,7 +47,7 @@ h2
 {
 	font-size: 30px;
 	background-color: white;
-	margin-bottom: 40px;
+	margin-bottom: 90px;
 	font-family: Raleway;
 	text-align: center;
 }
@@ -416,6 +416,11 @@ margin: center}
 }
 
 @media (max-width: 767px) {
+	.interest-details
+	{
+		display: block;
+
+	}
 	ul.timeline:before
 	{
 		left: 40px;
@@ -467,7 +472,7 @@ margin: center}
 	float: center;
 	margin: center;
 	position: center;
-	text-align: center;
+	text-align: left;
 }
 
 .interests-list li:last-child
@@ -500,7 +505,7 @@ margin: center}
 	opacity: 0;
 	padding: 10px;
 	position: center;
-	text-align: center;
+	text-align: left;
 	width: 200px;
 }
 
@@ -564,7 +569,8 @@ margin: center}
 {
 	color: white;
 	font-family: Raleway;
-	font-size: 220%}
+	font-size: 220%
+}
 
 li
 {
@@ -592,3 +598,22 @@ margin-right: center }
 .text-muted {
     color: black;
 }
+
+#maitrise
+{
+text-align: left;
+}
+#informatique
+{
+text-align: left;
+}
+#savoirfaire
+{
+text-align: left;
+}
+#competences
+{
+text-align: left;
+}
+
+
