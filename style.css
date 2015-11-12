@@ -546,8 +546,9 @@ strong
 
 .image
 {
-	margin-left: center;
-margin-right: center }
+margin-left: center;
+margin-right: center;
+}
 
 
 .text-muted {
@@ -562,14 +563,8 @@ text-align: left;
 {
 text-align: left;
 }
-#savoirfaire
-{
-text-align: left;
-}
-#competences
-{
-text-align: left;
-}
+
+
 
 .container
 {
